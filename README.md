@@ -1,98 +1,47 @@
 
-```
-agentwizard
-├─ app
-│  ├─ adk
-│  │  ├─ agent
-│  │  │  └─ agent.ts
-│  │  └─ tools
-│  │     └─ telegramTool.ts
-│  ├─ api
-│  │  └─ v1
-│  │     ├─ assets
-│  │     │  ├─ analytics
-│  │     │  │  └─ route.ts
-│  │     │  ├─ monitor
-│  │     │  │  └─ route.ts
-│  │     │  └─ risk
-│  │     │     └─ route.ts
-│  │     ├─ login
-│  │     │  ├─ metamask
-│  │     │  │  └─ route.ts
-│  │     │  └─ route.ts
-│  │     ├─ otp
-│  │     │  ├─ route.ts
-│  │     │  └─ verify
-│  │     │     └─ route.ts
-│  │     └─ signup
-│  │        └─ route.ts
-│  ├─ components
-│  │  ├─ Features.tsx
-│  │  ├─ Hero.tsx
-│  │  ├─ HowItWorks.tsx
-│  │  ├─ LoginForm.tsx
-│  │  ├─ Metamask.tsx
-│  │  ├─ Nav.tsx
-│  │  └─ SignUpForm.tsx
-│  ├─ config
-│  │  ├─ cipher.config.ts
-│  │  ├─ database.config.ts
-│  │  ├─ jwt.config.ts
-│  │  └─ nodemailer.config.ts
-│  ├─ contexts
-│  │  └─ ThemeContext.tsx
-│  ├─ dashboard
-│  │  ├─ components
-│  │  │  ├─ Analytics.tsx
-│  │  │  ├─ CoinTable.tsx
-│  │  │  ├─ dashboard.tsx
-│  │  │  ├─ logout.tsx
-│  │  │  └─ riskanalysisengine.tsx
-│  │  └─ page.tsx
-│  ├─ favicon.ico
-│  ├─ globals.css
-│  ├─ layout.tsx
-│  ├─ lib
-│  │  └─ cron.ts
-│  ├─ models
-│  │  ├─ AssetMonitor.ts
-│  │  ├─ Otp.ts
-│  │  ├─ RiskConfig.ts
-│  │  └─ User.ts
-│  ├─ page.tsx
-│  └─ utils
-│     └─ templates
-│        ├─ cryptoNotification.tsx
-│        └─ otpTemplate.tsx
-├─ components
-│  └─ ui
-│     ├─ animated-theme-toggler.tsx
-│     ├─ aurora-text.tsx
-│     ├─ button.tsx
-│     ├─ card.tsx
-│     ├─ chart.tsx
-│     ├─ checkbox.tsx
-│     ├─ dialog.tsx
-│     ├─ floating-dock.tsx
-│     ├─ input.tsx
-│     ├─ label.tsx
-│     ├─ loader.tsx
-│     ├─ radio-group.tsx
-│     ├─ ripple.tsx
-│     ├─ select.tsx
-│     ├─ switch.tsx
-│     ├─ tabs.tsx
-│     ├─ tooltip.tsx
-│     └─ wobble-card.tsx
-├─ components.json
-├─ lib
-│  └─ utils.ts
-├─ next.config.ts
-├─ package-lock.json
-├─ package.json
-├─ postcss.config.mjs
-├─ public
-├─ README.md
-└─ tsconfig.json
+# 🧙‍♂️ Agent Wizard
 
-```
+Agent Wizard is a Web3-based real-time trade monitoring and risk management tool that leverages AI-powered analytics to track market activity, assess risks, and deliver instant alerts via Telegram, helping users make smarter trading decisions.
+
+
+## 🚀 Features
+
+- 📈 **Real-Time Trade Monitoring**
+  - Live tracking of trades and market movements.
+
+- 🧠 **AI-Powered Risk Analysis**
+  - Detects anomalies and volatility to mitigate risks.
+
+- 📬 **Telegram Notifications**
+  - Instant alerts for trades and risk events.
+
+- 📊 **Advanced Analytics**
+  - Interactive dashboards for deep insights.
+
+- 🤖 **Agent-Powered Workflows**
+  - Automates monitoring and decision-making.
+
+- 👥 **Collaborative Insights**
+  - Share insights and alerts with teams.
+
+## 🛠️ How It Works
+
+1. 🔑 Subscribe to Wizard Agent
+2. 📊 Access personalized dashboard
+3. ⚠️ Enable smart alerts and risk analysis
+
+## 📦 Tech Stack
+
+- Web3
+- Next.js
+- Node.js
+- Telegram Bot API
+- AI/ML for risk analysis
+
+## 📸 Screenshot
+
+![Mobile View](localhost_3000_(iPhone SE) (1).png)
+
+## 📄 License
+
+This project is licensed under the MIT License.

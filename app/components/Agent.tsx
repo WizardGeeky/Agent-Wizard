@@ -54,7 +54,7 @@ export default function Agent() {
 
   return (
     <div
-      className={`flex flex-col h-[500px] sm:h-[600px] transition-colors duration-300
+      className={`flex flex-col h-[400px] sm:h-[500px] transition-colors duration-300
         bg-white dark:bg-[#0f172a] border-gray-200 dark:border-gray-700`}
     >
       {/* Intro screen when chat is empty */}
@@ -162,3 +162,4 @@ export default function Agent() {
     </div>
   );
 }
+

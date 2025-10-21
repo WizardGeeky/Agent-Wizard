@@ -14,8 +14,8 @@ Agent Wizard is a Web3-based real-time trade monitoring and risk management tool
 ## 🧪 Demo
 Check out the live demo: [Agent Wizard](https://agent-wizard.vercel.app)
 
-## 📸 Screenshots
-_Add screenshots of the dashboard, alerts, and agent interactions here._
+## 📸 Application Flow
+<img width="2001" height="1868" alt="untitled (1)" src="https://github.com/user-attachments/assets/cea42564-c812-4aa8-a70b-d073bbe31a29" />
 
 ## 🧩 Architecture Overview
 ```
@@ -76,11 +76,25 @@ NEXT_PUBLIC_APP_URL = YOUR_APPLICATION_URL
 - Real-time blockchain event tracking
 
 ## 🧾 API Reference
-```http
-GET /api/trades
-POST /api/alerts
-GET /api/analytics
-```
+
+<table width="100%" border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th><strong>API Path</strong></th>
+      <th><strong>HTTP Method</strong></th>
+      <th><strong>Description</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/login</td>
+      <td>POST</td>
+      <td>Authenticate user via Magic or Wallet</td>
+    </tr>
+    
+  </tbody>
+</table>
+
 
 ## 🧑‍💻 Contributing
 - Fork the repo
@@ -110,5 +124,6 @@ GET /api/analytics
 
 ## 📄 License
 This project is licensed under the MIT License.
+
 
 

@@ -33,6 +33,7 @@ Backend ↔ Telegram/Email (Notifications)
 - Data Encryption with AES
 
 ## 🧠 AI Agents
+- **Trade Monitor Agent**: Monitoring Trade information of Web3 coins based on users Risk configuration
 - **Telegram Agent**: Sends real-time alerts
 - **Email Agent**: Sends risk summaries
 - **Chat Agent**: You can ask anything about web 3.0
@@ -45,8 +46,8 @@ Tools: Jest, Cypress
 
 ## 🧰 Local Development
 ```bash
-git clone https://github.com/your-org/agent-wizard.git
-cd agent-wizard
+git clone https://github.com/WizardGeeky/Agent-Wizard.git
+cd Agent-Wizard
 npm install
 npm run dev
 ```
@@ -109,4 +110,5 @@ GET /api/analytics
 
 ## 📄 License
 This project is licensed under the MIT License.
+
 

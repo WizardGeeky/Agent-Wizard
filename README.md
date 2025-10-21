@@ -14,7 +14,19 @@ Agent Wizard is a Web3-based real-time trade monitoring and risk management tool
 ## 🧪 Demo
 Check out the live demo: [Agent Wizard](https://agent-wizard.vercel.app)
 
-## 📸 Application Flow
+## 📸 Proof Work
+<img width="1725" height="801" alt="Screenshot 2025-10-21 215658" src="https://github.com/user-attachments/assets/c1ccd593-dfd7-4c22-8e25-389f80986d9a" />  <img width="1326" height="645" alt="Screenshot 2025-10-18 180420" src="https://github.com/user-attachments/assets/43cef318-9653-4051-9261-e7c1b87555f0" />  <img width="1905" height="911" alt="Screenshot 2025-10-21 215812" src="https://github.com/user-attachments/assets/486cee43-28e2-4e71-8b08-6538292228ad" />  <img width="1905" height="890" alt="Screenshot 2025-10-21 215832" src="https://github.com/user-attachments/assets/428d20c0-8cfe-4cc0-bde2-34efa37586f1" />  <img width="1915" height="891" alt="Screenshot 2025-10-21 215846" src="https://github.com/user-attachments/assets/a971d505-ba35-42b3-bcce-a4d7036ba860" />
+
+### Mobile View
+
+<img width="371" height="666" alt="Screenshot 2025-10-21 220703" src="https://github.com/user-attachments/assets/cb8a7bc3-07a9-422d-b7ba-3818d0b9f360" />  <img width="371" height="664" alt="Screenshot 2025-10-21 220714" src="https://github.com/user-attachments/assets/4bb03e57-9d24-4c89-83ce-895e04351b69" />
+
+
+
+
+
+
+## 🌊 Application Flow
 <img width="2001" height="1868" alt="untitled (1)" src="https://github.com/user-attachments/assets/cea42564-c812-4aa8-a70b-d073bbe31a29" />
 
 ## 🧩 Architecture Overview
@@ -188,6 +200,7 @@ NEXT_PUBLIC_APP_URL = YOUR_APPLICATION_URL
 
 ## 📄 License
 This project is licensed under the MIT License.
+
 
 
 

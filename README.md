@@ -12,7 +12,7 @@ Agent Wizard is a Web3-based real-time trade monitoring and risk management tool
 - 👥 **Collaborative Insights** - Share insights and alerts with teams.
 
 ## 🧪 Demo
-Check out the live demo: [Agent Wizard](https://agent-wizard.vercelapp)
+Check out the live demo: [Agent Wizard](https://agent-wizard.vercel.app)
 
 ## 📸 Screenshots
 _Add screenshots of the dashboard, alerts, and agent interactions here._
@@ -109,3 +109,4 @@ GET /api/analytics
 
 ## 📄 License
 This project is licensed under the MIT License.
+

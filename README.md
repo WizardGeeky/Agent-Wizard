@@ -77,7 +77,7 @@ NEXT_PUBLIC_APP_URL = YOUR_APPLICATION_URL
 
 ## 🧾 API Reference
 
-<table width="100%" border="1" cellspacing="0" cellpadding="6">
+<table width="100%" border="0.5" cellspacing="0" cellpadding="6">
   <thead>
     <tr>
       <th><strong>API Path</strong></th>
@@ -87,11 +87,75 @@ NEXT_PUBLIC_APP_URL = YOUR_APPLICATION_URL
   </thead>
   <tbody>
     <tr>
+      <td>/api/v1/signup</td>
+      <td>POST</td>
+      <td>User Account creation with email and password</td>
+    </tr>
+    <tr>
+      <td>/api/v1/chat</td>
+      <td>POST</td>
+      <td>Chat bot (ask anything about web3, trade market)</td>
+    </tr>
+    <tr>
       <td>/api/v1/login</td>
       <td>POST</td>
-      <td>Authenticate user via Magic or Wallet</td>
+      <td>Authenticate user via email and password</td>
     </tr>
-    
+    <tr>
+      <td>/api/v1/login/metamask</td>
+      <td>POST</td>
+      <td>Authenticate user via Metamask Wallect</td>
+    </tr>
+    <tr>
+      <td>/api/v1/otp</td>
+      <td>POST</td>
+      <td>Send Otp to User email</td>
+    </tr>
+    <tr>
+      <td>/api/v1/password</td>
+      <td>POST</td>
+      <td>Send Password Reset link to email</td>
+    </tr>
+    <tr>
+      <td>/api/v1/password/reset</td>
+      <td>POST</td>
+      <td>Reset the password</td>
+    </tr>
+    <tr>
+      <td>/api/v1/password</td>
+      <td>POST</td>
+      <td>Verify Otp</td>
+    </tr>
+    <tr>
+      <td>/api/v1/monitor</td>
+      <td>POST</td>
+      <td>Select web3 coins to wish list to monitor</td>
+    </tr>
+    <tr>
+      <td>/api/v1/monitor</td>
+      <td>GET</td>
+      <td>Get all wish list coins</td>
+    </tr>
+    <tr>
+      <td>/api/v1/analysis</td>
+      <td>POST</td>
+      <td>Get All information or analytics about wish list coins</td>
+    </tr>
+    <tr>
+      <td>/api/v1/risk</td>
+      <td>POST</td>
+      <td>Create Risk configuration for wish list coins on markey cap, volume in %</td>
+    </tr>
+    <tr>
+      <td>/api/v1/risk</td>
+      <td>GET</td>
+      <td>Get All Risk Configuration</td>
+    </tr>
+    <tr>
+      <td>/api/v1/risk</td>
+      <td>DELETE</td>
+      <td>Delete Risk Configuration</td>
+    </tr>
   </tbody>
 </table>
 
@@ -124,6 +188,7 @@ NEXT_PUBLIC_APP_URL = YOUR_APPLICATION_URL
 
 ## 📄 License
 This project is licensed under the MIT License.
+
 
 
 

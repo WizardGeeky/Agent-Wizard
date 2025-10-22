@@ -22,10 +22,6 @@ Check out the live demo: [Agent Wizard](https://agent-wizard.vercel.app)
 <img width="371" height="666" alt="Screenshot 2025-10-21 220703" src="https://github.com/user-attachments/assets/cb8a7bc3-07a9-422d-b7ba-3818d0b9f360" />  <img width="371" height="664" alt="Screenshot 2025-10-21 220714" src="https://github.com/user-attachments/assets/4bb03e57-9d24-4c89-83ce-895e04351b69" />
 
 
-
-
-
-
 ## 🌊 Application Flow
 <img width="2001" height="1868" alt="untitled (1)" src="https://github.com/user-attachments/assets/cea42564-c812-4aa8-a70b-d073bbe31a29" />
 
@@ -198,8 +194,126 @@ NEXT_PUBLIC_APP_URL = YOUR_APPLICATION_URL
 - **AI Agents**: Telegram Agent, Email Agent, Chat Agent
 - **3rd Party APIs**: Coingecko, Alchemy
 
+## 📁 Folder Structure
+
+```
+├── 📁 app
+│   ├── 📁 adk
+│   │   ├── 📁 agent
+│   │   │   ├── 📄 agent.ts
+│   │   │   └── 📄 chatAgent.ts
+│   │   └── 📁 tools
+│   │       ├── 📄 RealGoogleSearch.ts
+│   │       └── 📄 telegramTool.ts
+│   ├── 📁 api
+│   │   └── 📁 v1
+│   │       ├── 📁 assets
+│   │       │   ├── 📁 analytics
+│   │       │   │   └── 📄 route.ts
+│   │       │   ├── 📁 monitor
+│   │       │   │   └── 📄 route.ts
+│   │       │   └── 📁 risk
+│   │       │       └── 📄 route.ts
+│   │       ├── 📁 chat
+│   │       │   └── 📄 route.ts
+│   │       ├── 📁 login
+│   │       │   ├── 📁 metamask
+│   │       │   │   └── 📄 route.ts
+│   │       │   └── 📄 route.ts
+│   │       ├── 📁 otp
+│   │       │   ├── 📁 verify
+│   │       │   │   └── 📄 route.ts
+│   │       │   └── 📄 route.ts
+│   │       ├── 📁 password
+│   │       │   ├── 📁 reset
+│   │       │   │   └── 📄 route.ts
+│   │       │   └── 📄 route.ts
+│   │       └── 📁 signup
+│   │           └── 📄 route.ts
+│   ├── 📁 components
+│   │   ├── 📄 Agent.tsx
+│   │   ├── 📄 Features.tsx
+│   │   ├── 📄 Hero.tsx
+│   │   ├── 📄 HowItWorks.tsx
+│   │   ├── 📄 LoginForm.tsx
+│   │   ├── 📄 Metamask.tsx
+│   │   ├── 📄 Nav.tsx
+│   │   └── 📄 SignUpForm.tsx
+│   ├── 📁 config
+│   │   ├── 📄 cipher.config.ts
+│   │   ├── 📄 database.config.ts
+│   │   ├── 📄 jwt.config.ts
+│   │   └── 📄 nodemailer.config.ts
+│   ├── 📁 contexts
+│   │   └── 📄 ThemeContext.tsx
+│   ├── 📁 dashboard
+│   │   ├── 📁 components
+│   │   │   ├── 📄 Analytics.tsx
+│   │   │   ├── 📄 CoinTable.tsx
+│   │   │   ├── 📄 dashboard.tsx
+│   │   │   ├── 📄 logout.tsx
+│   │   │   ├── 📄 profile.tsx
+│   │   │   └── 📄 riskanalysisengine.tsx
+│   │   └── 📄 page.tsx
+│   ├── 📁 lib
+│   │   └── 📄 cron.ts
+│   ├── 📁 models
+│   │   ├── 📄 AssetMonitor.ts
+│   │   ├── 📄 Otp.ts
+│   │   ├── 📄 RiskConfig.ts
+│   │   └── 📄 User.ts
+│   ├── 📁 password
+│   │   ├── 📁 reset
+│   │   │   └── 📄 page.tsx
+│   │   └── 📄 page.tsx
+│   ├── 📁 types
+│   │   ├── 📄 CoinEvent .ts
+│   │   └── 📄 CoinInfo.ts
+│   ├── 📁 utils
+│   │   └── 📁 templates
+│   │       ├── 📄 cryptoNotification.tsx
+│   │       ├── 📄 otpTemplate.tsx
+│   │       └── 📄 welcomeTemplate.tsx
+│   ├── 📄 favicon.ico
+│   ├── 🎨 globals.css
+│   ├── 📄 layout.tsx
+│   └── 📄 page.tsx
+├── 📁 components
+│   └── 📁 ui
+│       ├── 📄 animated-theme-toggler.tsx
+│       ├── 📄 aurora-text.tsx
+│       ├── 📄 button.tsx
+│       ├── 📄 card.tsx
+│       ├── 📄 chart.tsx
+│       ├── 📄 checkbox.tsx
+│       ├── 📄 dialog.tsx
+│       ├── 📄 floating-dock.tsx
+│       ├── 📄 input.tsx
+│       ├── 📄 label.tsx
+│       ├── 📄 loader.tsx
+│       ├── 📄 radio-group.tsx
+│       ├── 📄 ripple.tsx
+│       ├── 📄 select.tsx
+│       ├── 📄 switch.tsx
+│       ├── 📄 tabs.tsx
+│       ├── 📄 tooltip.tsx
+│       └── 📄 wobble-card.tsx
+├── 📁 lib
+│   └── 📄 utils.ts
+├── 📁 public
+├── ⚙️ .gitignore
+├── 📝 README.md
+├── ⚙️ components.json
+├── 📄 next.config.ts
+├── ⚙️ package-lock.json
+├── ⚙️ package.json
+├── 📄 postcss.config.mjs
+└── ⚙️ tsconfig.json
+```
+
 ## 📄 License
 This project is licensed under the MIT License.
+
 
 
 

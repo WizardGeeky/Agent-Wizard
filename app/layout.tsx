@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// if (typeof window === "undefined" && !(globalThis as any).__riskCronStarted) {
-//   startRiskCron();
-//   (globalThis as any).__riskCronStarted = true;
-// }
+if (typeof window === "undefined" && !(globalThis as any).__riskCronStarted) {
+  startRiskCron();
+  (globalThis as any).__riskCronStarted = true;
+}
 
 export const metadata: Metadata = {
   title: "Agent Wizard | Web3 trade monitoring and risk analysis tool",

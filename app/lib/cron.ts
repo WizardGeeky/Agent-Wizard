@@ -98,12 +98,9 @@ async function checkRisks() {
     }
   }
 }
-let cronRunning = false;
 
 export default function startRiskCron() {
-  if (cronRunning) return;
-  cronRunning = true;
-
+  
   cron.schedule("*/2 * * * *", async () => {
     console.log("⏰ Running risk checks at", new Date().toISOString());
     try {
@@ -113,5 +110,5 @@ export default function startRiskCron() {
     }
   });
 
-  console.log("✅ Risk cron initialized once.");
 }
+

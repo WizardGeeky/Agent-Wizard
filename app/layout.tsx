@@ -15,9 +15,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-if (typeof window === "undefined" && !(globalThis as any).__riskCronStarted) {
+if (typeof window === "undefined") {
   startRiskCron();
-  (globalThis as any).__riskCronStarted = true;
 }
 
 export const metadata: Metadata = {
